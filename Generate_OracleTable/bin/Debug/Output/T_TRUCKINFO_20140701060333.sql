@@ -1,0 +1,68 @@
+/*
+Navicat Oracle Data Transfer
+Oracle Client Version : 10.2.0.5.0
+
+Source Server         : Oracle_192.168.0.153
+Source Server Version : 110200
+Source Host           : 192.168.0.153:1521
+Source Schema         : SANKIDEV
+
+Target Server Type    : ORACLE
+Target Server Version : 110200
+File Encoding         : 65001
+
+Date: 2014-07-01 06:03
+*/
+
+
+-- ----------------------------
+-- Table structure for J_FAULTHIS
+-- ----------------------------
+--DROP TABLE "SANKIDEV"."T_TRUCKINFO";
+CREATE TABLE "SANKIDEV"."T_TRUCKINFO" (
+"CONVNUM" NUMBER (7) NOT NULL,
+"TRUCKNUM" VARCHAR2 (10) NOT NULL,
+"SEQUENCEDBY" VARCHAR2 (40) NOT NULL,
+"LOADEDBY" VARCHAR2 (40) NOT NULL,
+"PULLLOADTIME" DATE NOT NULL,
+"TRUCKTYPEFLG_ARMY" VARCHAR2 (1) NULL,
+"TRUCKTYPEFLG_USAF" VARCHAR2 (1) NULL,
+"TRUCKTYPEFLG_DLA" VARCHAR2 (1) NULL,
+"TRUCKTYPEFLG_NAVY" VARCHAR2 (1) NULL,
+"TRUCKTYPEFLG_MARI" VARCHAR2 (1) NULL,
+"TRUCKTYPEFLG_COMM" VARCHAR2 (1) NULL,
+"TRUCKTYPEFLG_OTHER" VARCHAR2 (1) NULL,
+"DESTINATION" VARCHAR2 (10) NOT NULL,
+"LIFTDESTINATION" VARCHAR2 (10) NOT NULL,
+"LOADSEQSTS" VARCHAR2 (1) NULL,
+"SEQSTARTTIME" DATE NULL,
+"SEQCOMPTIME" DATE NULL,
+"SEQSTARTUSER" VARCHAR2 (20) NULL,
+"INSKIND" VARCHAR2 (1) NULL,
+"INSTIME" DATE NULL,
+"INSTERM" VARCHAR2 (12) NULL,
+"INSUSER" VARCHAR2 (20) NULL,
+"UPDTIME" DATE NULL,
+"UPDTERM" VARCHAR2 (12) NULL,
+"UPDUSER" VARCHAR2 (20) NULL
+)
+LOGGING
+NOCOMPRESS
+NOCACHE
+
+;
+
+-- ----------------------------
+-- Indexes structure for table T_TRUCKINFO
+-- ----------------------------
+
+-- ----------------------------
+-- Checks structure for table T_TRUCKINFO
+-- ----------------------------
+ALTER TABLE "SANKIDEV"."T_TRUCKINFO" ADD CHECK ("CONVNUM" IS NOT NULL);
+
+-- ----------------------------
+-- Primary Key structure for table T_TRUCKINFO
+-- ----------------------------
+ALTER TABLE "SANKIDEV"."T_TRUCKINFO" ADD PRIMARY KEY ("CONVNUM");
+

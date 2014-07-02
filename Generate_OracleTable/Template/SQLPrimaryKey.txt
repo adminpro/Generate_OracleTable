@@ -1,0 +1,9 @@
+﻿-- ----------------------------
+-- Checks structure for table {TableName}
+-- ----------------------------
+ALTER TABLE "SANKIDEV"."{TableName}" ADD CHECK ("{PrimaryKey}" IS NOT NULL);
+
+-- ----------------------------
+-- Primary Key structure for table {TableName}
+-- ----------------------------
+ALTER TABLE "SANKIDEV"."{TableName}" ADD PRIMARY KEY ("{PrimaryKey}");

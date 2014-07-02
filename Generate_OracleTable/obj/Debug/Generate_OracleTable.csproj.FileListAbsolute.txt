@@ -1,0 +1,11 @@
+D:\Project\VS\Generate_OracleTable\Generate_OracleTable\bin\Debug\Generate_OracleTable.exe.config
+D:\Project\VS\Generate_OracleTable\Generate_OracleTable\bin\Debug\Generate_OracleTable.exe
+D:\Project\VS\Generate_OracleTable\Generate_OracleTable\bin\Debug\Generate_OracleTable.pdb
+D:\Project\VS\Generate_OracleTable\Generate_OracleTable\obj\Debug\Generate_OracleTable.csprojResolveAssemblyReference.cache
+D:\Project\VS\Generate_OracleTable\Generate_OracleTable\obj\Debug\Generate_OracleTable.frmMain.resources
+D:\Project\VS\Generate_OracleTable\Generate_OracleTable\obj\Debug\Generate_OracleTable.Properties.Resources.resources
+D:\Project\VS\Generate_OracleTable\Generate_OracleTable\obj\Debug\Generate_OracleTable.csproj.GenerateResource.Cache
+D:\Project\VS\Generate_OracleTable\Generate_OracleTable\obj\Debug\Generate_OracleTable.exe
+D:\Project\VS\Generate_OracleTable\Generate_OracleTable\obj\Debug\Generate_OracleTable.pdb
+D:\Project\VS\Generate_OracleTable\Generate_OracleTable\bin\Debug\Template\SQL_CreateTable.txt
+D:\Project\VS\Generate_OracleTable\Generate_OracleTable\bin\Debug\Template\SQLPrimaryKey.txt
